@@ -79,4 +79,3 @@ Backend: Node.js, Express.js
 Database: MongoDB (Mongoose ODM)
 Real-Time Communication: Socket.io
 Authentication: JSON Web Tokens (JWT)
-Deployment: Heroku (for example)
