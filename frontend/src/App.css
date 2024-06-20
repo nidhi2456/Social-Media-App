@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-image: url('https://as1.ftcdn.net/v2/jpg/04/84/87/34/1000_F_484873483_hg1ofIdXbMha5lKEDG3hJBrwKh1oikTq.jpg');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  background-color: #fff; /* Optional: background color to match the design */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for better visibility */
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-navbar {
+  margin-top: 120px; /* Adjust this value based on the height of your header and navbar */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+

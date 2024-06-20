@@ -1,0 +1,109 @@
+/* feed.css */
+
+/* General styles for the feed container */
+body {
+  background-color: #f0f0f0; /* Light gray background for the entire page */
+  padding-top: 30px;
+}
+
+.feed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* White background for the feed */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for each post */
+.post {
+  background-color: #f8f9fa; /* Light gray background for each post */
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333; /* Darker color for post titles */
+}
+
+.post p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.post h3 {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Styles for the like button and the list of likes */
+.post button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.post button:hover {
+  background-color: #0056b3;
+}
+
+.post ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post ul li {
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+/* Styles for the comment section */
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment-section input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.comment-section input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}

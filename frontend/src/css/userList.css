@@ -1,0 +1,48 @@
+.user-list {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/84/87/34/1000_F_484873483_hg1ofIdXbMha5lKEDG3hJBrwKh1oikTq.jpg');
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    min-height: 100vh; /* Ensure full height for the background image */
+  }
+  
+  .user {
+    cursor: pointer;
+    padding: 15px 20px; /* Increased padding for better touch target */
+    margin: 10px 5px; /* More space between buttons */
+    border: 1px solid #ccc;
+    border-radius: 25px; /* More rounded corners */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+  }
+  
+  .user:hover {
+    transform: translateY(-5px); /* Lift the button on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 15px; /* Increased padding for better touch target */
+    border: none;
+    background-color: #007bff;
+    color: #868585;
+    border-radius: 25px; /* More rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease; /* Smooth hover effects */
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px); /* Lift the button on hover */
+  }
+  

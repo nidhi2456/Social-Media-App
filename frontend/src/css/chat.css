@@ -1,0 +1,69 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    height: 100vh; /* Make the chat container take full height of the viewport */
+    justify-content: space-between; /* Place the chat input at the bottom */
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .message.sent {
+    background-color: #d1ffd1;
+    align-self: flex-end;
+    width: 50%;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  
+  .message.received {
+    background-color: #ffe6e6;
+    align-self: flex-start;
+    width: 50%;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  
+  .chat-input {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-input button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #0056b3;
+  }
+  
